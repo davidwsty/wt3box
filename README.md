@@ -41,6 +41,14 @@ PHPStorm neustarten und dann "Update Project" um die eigenen Pakete auf "master"
 
 #### Verbinden
 
+    MySQL-Host: 0.0.0.0
+    Benutzer: root
+    Passwort: root
+    SSH-Host: 127.0.0.1
+    SSH-Benutzer: ubuntu
+    SSH-Port: 2222
+    SSH-Schlüsselpfad: dev/.vagrant/machines/wt-projekt.test/virtualbox/private_key
+
 ###### Mac
 https://www.sequelpro.com/  
 
