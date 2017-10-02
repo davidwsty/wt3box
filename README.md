@@ -14,22 +14,9 @@ Vagrant Hostmanager installieren.
     vagrant plugin install vagrant-hostmanager
   
 #### Ausführen
-Projekt per PHPStorm auschecken.  
-
-In PHPStorm Terminal öffnen und vagrant starten.  
 
 	cd dev
 	vagrant up
-
-Setupscript starten (installiert Abhängigkeiten).  
-
-    vagrant ssh
-    cd /project/dev
-	chmod 777 setup.sh
-	./setup.sh
-
-PHPStorm neustarten und dann "Update Project" um die eigenen Pakete auf "master" zu aktualisieren.  
-
 
 #### Mit Box verbinden
 
@@ -53,7 +40,17 @@ PHPStorm neustarten und dann "Update Project" um die eigenen Pakete auf "master"
 https://www.sequelpro.com/  
 
 ###### Windows
+Kommt noch...
 
 #### Archivieren
+Kommt noch...
 
 #### Spiegeln
+Kommt noch...
+
+## Entwicklung / Funktion
+Alles was im Ordner source/www liegt ist für den Webserver erreichbar.  
+Hier muss der source code eurer Applikation hinterlegt werden.
+
+### Module
+Kommt noch...
