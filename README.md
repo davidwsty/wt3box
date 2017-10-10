@@ -49,8 +49,14 @@ Kommt noch...
 Kommt noch...
 
 ## Entwicklung / Funktion
-Alles was im Ordner source/www liegt ist für den Webserver erreichbar.  
+Alles was im Ordner source/www liegt ist für den Webserver unter [http://wt-projekt.test](http://wt-projekt.test) erreichbar.  
 Hier muss der source code eurer Applikation hinterlegt werden.
 
-### Module
+### PHPMyAdmin
+[http://wt-projek.test/phpmyadmin](http://wt-projekt.test/phpmyadmin)
+
+    Benutzer: root
+    Password: root
+
+### Url ändern
 Kommt noch...
