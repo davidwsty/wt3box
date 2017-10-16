@@ -1,4 +1,4 @@
-# Web Tech 3 Projekt Box
+# Web Tech 3 Projekt Box - Laravel
 
 ## Projekt
 
@@ -22,6 +22,9 @@ Vagrant Hostmanager installieren.
 
     cd dev
 	vagrant ssh
+	
+#### Laravel Komponenten installieren
+Kommt noch...
  
 
 ## Datenbank
@@ -49,8 +52,6 @@ Kommt noch...
 Kommt noch...
 
 ## Entwicklung / Funktion
-Alles was im Ordner source/www liegt ist für den Webserver unter [http://wt-projekt.test](http://wt-projekt.test) erreichbar.  
-Hier muss der source code eurer Applikation hinterlegt werden.
 
 ### PHPMyAdmin
 [http://wt-projek.test/phpmyadmin](http://wt-projekt.test/phpmyadmin)
