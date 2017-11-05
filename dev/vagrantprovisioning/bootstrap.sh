@@ -85,3 +85,9 @@ sudo service apache2 restart
 ## MySQL - Restart
 ####################################################
 sudo service mysql restart
+
+## Import DB dump if exists
+####################################################
+if [ -f /project/dev/dbexport.sql ]; then
+    mysql -u root -proot -h localhost -P 3306 < /project/dev/dbexport.sql
+fi

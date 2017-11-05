@@ -43,10 +43,15 @@ https://www.sequelpro.com/
 Kommt noch...
 
 #### Archivieren
-Kommt noch...
+Nach ausführen folgender Befehle sollte im /dev Verzeichnis eine dbexport.sql liegen.
+
+    cd dev
+    vagrant ssh
+    cd /project/dev
+    . dbexport.sh
 
 #### Spiegeln
-Kommt noch...
+Datenbank wird automatisch beim ersten hochfahren der Box eingespielt solange in /dev eine dbexport.sql hinterlegt ist.
 
 ## Entwicklung / Funktion
 Alles was im Ordner source/www liegt ist für den Webserver unter [http://wt-projekt.test](http://wt-projekt.test) erreichbar.  
